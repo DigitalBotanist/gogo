@@ -1,0 +1,62 @@
+/* contact us page css */
+
+.contact-page__container{
+    display:flex;
+    justify-content: center;
+   width: 60vw; 
+   
+   color: white;
+   margin:50px auto;
+
+  
+}
+
+.contact-page__left{
+    background-color: var(--secondary-600) ;
+    padding: 80px;
+    flex: 1;
+    
+   
+}
+
+.contact-page__rigth{
+    background-color:  var(--secondary) ;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: center;
+    flex: 1;
+    
+}
+
+.contact-page__rigth input, .contact-page__rigth textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-page__btn{
+    background-color: var(--primary);
+    width:10vw;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+   
+}
+
+.contact-page__img{
+    width: 23px;
+    aspect-ratio: 1;
+    object-fit: contain;
+
+    cursor: pointer;
+}
+
+.contact-page__link{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 500;
+}
+

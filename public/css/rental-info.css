@@ -1,0 +1,89 @@
+.rental-info {
+    width: 60%;
+    margin: 0 auto;
+    color: var(--text);
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.rental-info__car {
+    width: 100%;
+    height: 250px;
+    background-color: var(--secondary);
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 20px;
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+}
+
+.rental-info__img {
+    height: 90%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.rental-info__bottom {
+    display: flex;
+    gap: 10%;
+}
+
+.rental-info__rental {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary); 
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.rental-info__bottom-right {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.rental-info__verify {
+    width: 100%;
+    background-color: var(--secondary);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 250px;
+}
+
+.rental-info__verify-row {
+    display: flex;
+    width: 60%;
+}
+
+.rental-info__verify-row p {
+    margin: 0;
+}
+
+.rental-info__verify-name {
+    width: 100%;
+}
+
+.rental-info__verify-status {
+    background-color: var(--background-100);
+    padding: 5px;
+    color: var(--primary-800);
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: auto;
+} 
+
+.rental-info__cancel { 
+    /* width: 0px; */
+}

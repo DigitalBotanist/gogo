@@ -1,0 +1,32 @@
+.service_page_all {
+    display: flex;
+    flex-direction: column  ;
+}
+
+.service_heading{
+    color: var(--text);
+}
+
+.service_page_all{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   gap: 10px;
+}
+
+.service_types {
+    width: 800px;
+    /* height: 200px; */
+    color: var(--text);
+    background-color: var(--secondary);
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.service_img{
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+}

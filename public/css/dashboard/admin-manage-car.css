@@ -1,0 +1,61 @@
+.manage_car_search{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.manage_car_addbutton{
+    width: 90px;
+    height: auto;
+    color: var(--text);
+    background-color: var(--primary);
+}
+
+.manage_car_row1 {
+    display:flex;
+    gap: 80px;
+    color:var(--text);
+    
+}
+
+.manage_car_details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.manage_car_detail{
+    display: flex; 
+    justify-content: space-between;
+    color:var(--text);
+    width: 800;
+    height: auto;
+    background-color: var(--secondary-700);
+    padding-inline: 10px;
+}
+
+.manage_car_name , .manage_car{
+    display:flex;
+    gap: 80px;
+}
+
+.manage_car_dlt{
+    color: var(--secondary-red);
+}
+
+.manage_car_edit{
+    color: var(--secondary-blue);
+}
+
+
+
+.manage_car_search-box{
+    background-color:var(--text);
+    width:300px;
+    background:url("../../assets/search-icon.svg") no-repeat 98%, white;
+    border:0px;
+    padding:auto;
+}
+

@@ -1,0 +1,30 @@
+/* include all the css files */
+
+@import url("main.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("search-box.css");
+@import url("home.css");
+@import url("search-page.css");
+@import url("dashboard.css");
+@import url("payment.css");
+@import url("contact.css");
+@import url("signup.css");
+@import url("login.css");
+@import url("joinus.css");
+@import url("about.css");
+@import url("services.css");
+@import url("popup-box.css");
+@import url("vehicle.css");
+@import url("rental-info.css");
+@import url("messages.css");
+@import url("dashboard/user-profile.css");
+@import url("dashboard/user-rental.css");
+@import url("dashboard/staff-tasks.css");
+@import url("dashboard/admin-manage-user.css");
+@import url("dashboard/user-history.css");
+@import url("dashboard/admin-manage-car.css");
+@import url("dashboard/driver-tasks.css");
+@import url("dashboard/manager-employee-info.css");
+@import url("dashboard/manager-cars-info.css");
+@import url("dashboard/manager-report.css");

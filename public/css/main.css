@@ -1,0 +1,147 @@
+:root {
+    --text-50: #eae9fc;
+    --text-100: #d6d2f9;
+    --text-200: #ada5f3;
+    --text-300: #8478ed;
+    --text-400: #5b4be7;
+    --text-500: #321fe0;
+    --text-600: #2818b4;
+    --text-700: #1e1287;
+    --text-800: #140c5a;
+    --text-900: #0a062d;
+    --text-950: #050316;
+
+    --background-50: #efeff6;
+    --background-100: #dfdeed;
+    --background-200: #bfbddb;
+    --background-300: #9f9cc9;
+    --background-400: #7f7bb7;
+    --background-500: #5f5ba4;
+    --background-600: #4c4884;
+    --background-700: #393663;
+    --background-800: #262442;
+    --background-900: #131221;
+    --background-950: #0a0910;
+
+    --primary-50: #e9fbf3;
+    --primary-100: #d4f7e6;
+    --primary-200: #a9efcd;
+    --primary-300: #7ee7b4;
+    --primary-400: #53df9b;
+    --primary-500: #28d782;
+    --primary-600: #20ac68;
+    --primary-700: #18814e;
+    --primary-800: #105634;
+    --primary-900: #082b1a;
+    --primary-950: #04160d;
+
+    --secondary-50: #f1f1f4;
+    --secondary-100: #e3e2e9;
+    --secondary-200: #c6c5d3;
+    --secondary-300: #aaa9bc;
+    --secondary-400: #8e8ca6;
+    --secondary-500: #726f90;
+    --secondary-600: #5b5973;
+    --secondary-700: #444356;
+    --secondary-800: #2d2c3a;
+    --secondary-900: #17161d;
+    --secondary-950: #0b0b0e;
+
+    --accent-50: #f2f2f2;
+    --accent-100: #e6e6e6;
+    --accent-200: #cccccc;
+    --accent-300: #b3b3b3;
+    --accent-400: #999999;
+    --accent-500: #808080;
+    --accent-600: #666666;
+    --accent-700: #4d4d4d;
+    --accent-800: #333333;
+    --accent-900: #1a1a1a;
+    --accent-950: #0d0d0d;
+
+    --text: #ebe9fc;
+    --background: #12111f;
+    --primary: #1FA865;
+    --secondary: #2a2935;
+    --secondary-red: #E53C3C; 
+    --secondary-blue: #6B79FF;
+    --accent: #ffffff;
+
+}
+
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--background);
+    margin: 0;
+    min-height: 100vh;
+}
+
+main {
+    min-height: 90vh;
+}
+
+.container {
+    margin: 50px;
+    padding: 50px;
+    color: var(--accent-600);
+    font-size: 1.4em;
+    background-color: var(--secondary);
+    border-radius: 10px;
+}
+
+.primary-button { 
+    background-color: var(--primary);
+    padding: 8px 10px;
+    border: 0 solid black ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.red-btn {
+    background-color: var(--secondary-red);
+    padding: 8px 10px;
+    border: 0 solid black ;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--text);
+}
+
+.link {
+    color: white; 
+    text-decoration: none;
+}
+
+.table {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.table tr {
+    height: 50px;
+    background-color: var(--secondary-700);
+}
+
+.table tr:first-of-type {
+    background-color: var(--secondary-600);
+}
+
+.table__link{
+    color:var(--secondary-blue);
+}
+
+.table__link--red{
+    color: var(--secondary-red);
+}
+
+.table__img {
+    height: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}

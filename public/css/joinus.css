@@ -1,0 +1,56 @@
+.joinus_page_top
+{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.joinus_page_image
+{
+    width: 300px;
+    height: auto;
+}
+.joinus_page_container
+{
+    color: var(--text);
+    background-color: var(--secondary);
+    width: 60vw;
+    margin: 50px auto;
+    font-size:medium;
+}
+
+.joinus_page_content { 
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.joinus_page_form { 
+    /* margin-right: 90px;       */
+    width: 400px;
+    /* padding: 50px auto; */
+    margin: auto auto;
+}
+.joinus_page_label
+{
+    width: 150px;
+    display: inline-block;
+}
+.joinus_page_input
+{
+    width: 230px;
+}
+.joinus_page_button
+{
+    background-color:var(--primary);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.joinus_page_button:hover
+{
+    opacity: 1;
+}

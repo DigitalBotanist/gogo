@@ -1,0 +1,35 @@
+.popup-box-container {
+    display: none;
+}
+
+.popup-box__overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background);
+    opacity: 0.4;
+}
+
+.popup-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--background-700);
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.popup-box__close {
+    margin-left: auto;
+    width: 40px;
+    cursor: pointer;
+}

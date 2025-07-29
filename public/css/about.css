@@ -1,0 +1,27 @@
+/* about us page css */
+
+.about_img1 {
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.about_h, .about_para{
+    color: var(--text);
+}
+
+.about_h {
+    margin-top: 0;
+}
+
+.about_para {
+    font-size: 14px;
+}
+
+.about-us-page{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 70vw; 
+    margin: 50px auto; 
+}

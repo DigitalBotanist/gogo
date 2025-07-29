@@ -1,0 +1,108 @@
+.vehicle-page {
+    /* display: flex; */
+}
+
+.vehicle {
+    color: var(--text);
+    max-width: 70vw;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 50px; 
+    gap: 40px;
+}
+
+.vehicle__img {
+    width: 50%;
+    /* height: 500px; */
+    aspect-ratio: 1 ;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.vehicle__detail-box-container {
+    display: flex;
+    gap: 5px;
+}
+
+.vehicle__detail-box {
+    height: 25px;
+    color: black;
+    border-radius: 5px;
+    background-color: var(--background-50);
+    padding: 5px 6px;
+    display: flex;
+    align-items: center;
+}
+
+.vehicle__day-price-no {
+    font-size: 2em;
+}
+
+.vehicle__rental-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vehicle__dates-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.vehicle__input-label {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-100);
+}
+
+.vehicle__input {
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px; 
+
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.vehicle__driver-div {
+    display: flex;
+    gap: 20px;
+}
+
+.vehicle__radio-input {
+    display: none;
+}
+
+.vehicle__radio-input + label {
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px; 
+
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: black; 
+    background-color: var(--background-200);
+    cursor: pointer;
+}
+
+.vehicle__radio-input:checked + label {
+    background-color: white;
+    outline: 1px solid var(--primary);
+    cursor: default;
+}
+
+.vehicle__book-btn {
+    font-weight: 500;
+    font-size: 18px;
+    height: 50px;
+}

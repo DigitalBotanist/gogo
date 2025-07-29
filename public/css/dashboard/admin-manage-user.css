@@ -1,0 +1,81 @@
+.admin_manageuser{
+    padding:30px;
+}
+
+.admin_manageuser_h1 {
+    text-align: center;
+}
+
+.admin_manageuser_container
+{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.admin_manageuser_container_select
+{
+    /* background-color:var(--secondary-400); */
+    color:black;
+    height:20px;
+    width:100px;
+    border-radius: 3px;
+    padding:auto;
+}
+
+.admin_manageuser_container_text{
+    background-color:var(--text);
+    width:300px;
+    background:url("../../assets/search-icon.svg") no-repeat 98%, white;
+    border:0px;
+    padding:auto;
+    
+}
+
+.admin_manageuser_container_btn
+{
+    background-color:var(--primary);
+    border-radius: 3px;
+    color: text;
+    border:0px;
+    padding: auto;
+    width:90px;
+    
+
+}
+
+
+
+.admin_manageuser_row1{
+    display:flex;
+    gap: 140px;
+    color:var(--text);
+    padding:10px;
+    
+}
+
+.admin_manageuser_data{
+    display:flex;
+    gap:80px;
+    color:var(--text);
+    background-color:var(--secondary-700) ;
+    width:100%;
+    padding:10px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+.admin_manageuser_data_container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+
+
+
+
+

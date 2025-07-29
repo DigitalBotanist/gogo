@@ -1,0 +1,129 @@
+
+.search-page {
+    display: flex;
+    justify-content: center;
+}
+
+.search-page__content {
+    color: var(--text);
+    position: fixed;
+    top: 28vh;
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    height: 70vh;
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+
+.search-page__search-box-container {
+    width: 100%;
+    position: fixed;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+} 
+
+.search-filter {
+    align-self: flex-start;
+    width: 300px;
+    padding: 35px;
+    box-sizing: border-box;
+    background-color: var(--secondary);
+    border-radius: 10px;
+}
+
+.search-filter__title {
+    margin-top: 0;
+}
+
+.search-filter__label {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}
+
+.search-filter__select {
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.search-page__card-container {
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(120px,400px));
+    gap: 40px;
+}
+
+.search-card {
+    position: relative;
+    background-color: var(--secondary);
+    border-radius: 5px;
+    height: 400px;
+}
+
+.search-card__link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.search-card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.search-card p {
+    margin: 0;
+}
+
+.search-card__info {
+    padding: 5%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.search-card__h3 {
+    margin: 0;
+}
+
+.search-card__detail-box-container {
+    display: flex;
+    gap: 5px;
+}
+
+.search-card__detail-box {
+    height: 25px;
+    color: black;
+    border-radius: 5px;
+    background-color: var(--background-50);
+    padding: 5px 6px;
+    display: flex;
+    align-items: center;
+}
+
+.search-card__detail-box img {
+    height: 100%;
+}
+
+.search-card__price-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-card__day-price-no { 
+    color: var(--primary);
+    font-weight: 500;
+}

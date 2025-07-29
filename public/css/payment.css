@@ -1,0 +1,178 @@
+.payment_h{
+    color: var(--text);
+    background-color: var(--secondary);
+    margin: 0;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.payment_page_all{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 20px;
+}
+
+.payment_page{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    color: var(--text);
+    background-color: var(--secondary);
+    width:300px;
+    border-radius: 10px;
+
+}
+
+.payment_page form {
+    width: 100%;
+    padding: 20px;
+}
+
+.payment_detail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payment_heading{
+    text-align: center;
+}
+
+.payment_dates {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.payment_dates > div {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 20px; */
+
+}
+
+.payment_dates_row{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.payment_Card_details{
+    color: var(--text);
+    width:500px;
+    height:400px;
+    /* margin: 20px auto; */
+    padding: 10px; 
+}
+
+.paymnet_img1{
+    height: 35px;
+    width: 50px;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.payment_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.payment_row label {
+    width: 200px; /* Adjust the width as needed */
+    text-align: left;
+    margin-left: 20px; /* Add some space between label and input */
+}
+
+.payment_row input {
+    flex: 1; /* Takes up remaining space */
+}
+
+.payment_password
+{
+    text-align: right;
+}
+
+.payment_booking{
+    background-color: var(--primary);
+    color: black;
+    width: 200px;
+    appearance: none;
+    border: 0 solid black;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 40px;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+}
+
+.payment_img-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.payment__card-icon input[type ="radio"] {
+    /* display: none; */
+    appearance: none;
+    width: 10px;
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.payment__card-icon input[type ="radio"]:checked {
+    background-color: var(--primary);
+}
+
+.payment__card-icon input[type ="radio"] + label {
+    width: unset;
+}
+
+.payment__card-icon input[type ="radio"]:checked+label  img {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.payment_dates  p {
+    margin: 0;
+}
+
+.payment__dates-label {
+    margin: 0;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-100);
+}
+
+.payment__details-div {
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px; 
+
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    background-color: var(--background-50);
+
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.payment__card-icon {
+    display: flex;
+    align-items: center;
+}

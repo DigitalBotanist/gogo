@@ -1,0 +1,82 @@
+.signup_page_continue{
+    text-align: center;
+}
+/* Full-width input fields */
+.signup_page_input{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+.signup_page_input:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.signup_page_hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+/* Set a style for all buttons */
+.signup_page_button {
+    background-color:var(--primary);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.signup_page_button:hover {
+    opacity: 1;
+}
+.signup_page_name{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+.signup_page_remember {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/*Float cancel and signup buttons and add an equal width */
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+/* Add padding to container elements */
+.signup_page_container {
+    padding: 16px;
+    color: var(--text);
+    width: 500px;
+    margin:0 auto;
+    background-color: var(--secondary);
+    
+}
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .signupbtn {
+        width: 100%;
+    }
+}
+.signup_page_para{
+    color: rgb(155, 151, 151);
+}
+.signup_page_login{
+    text-align: center;
+}
+.signup_page_linklogin{
+    color: var(--primary);
+}

@@ -1,0 +1,28 @@
+.user-rental-status-box {
+    padding: 20px;
+}
+
+.user-rental-status-item {
+    border-bottom: white 2px solid;
+    background-color: var(--secondary-500);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.user-rental-status-info {
+    padding: 5px;
+}
+
+.user-rental-status-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.user-rental-status-point {
+    margin-bottom: 5px;
+    background-color: var(--secondary-700);
+    color: white;
+    padding:5px;
+}

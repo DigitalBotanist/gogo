@@ -1,0 +1,19 @@
+#manger-report-dropdown{
+    margin:20px;
+    padding:5px;
+    font-weight:bold;
+}
+
+.manger-report-column {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.manger-report-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-500);
+    padding:10px;
+    margin:10px;
+}

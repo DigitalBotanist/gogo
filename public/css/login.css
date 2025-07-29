@@ -1,0 +1,65 @@
+
+
+.login-page__container { 
+    width: 500px;
+    margin: 0 auto;
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 30px 40px;
+    margin:50px auto;
+    color: white;
+}
+
+.login-page__input{
+    color:black;
+    width: 300px;
+    height:30px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.login-page__input--err {
+    border: 1px solid var(--secondary-red);
+    color: red;
+}
+
+.login-page__flexPassword{
+    display:flex;
+    justify-content:space-between;
+    padding :0 0 0 100px;
+
+}
+
+
+
+.login-page__Password{
+    color:var(--primary);
+    padding:0 100px 0 0;
+}
+
+.login-page__btn{
+    background-color: var(--primary);
+    width:300px;
+    height:30px;
+    border:none;
+    outline:none;
+}
+
+.login-page__hr{
+    width: 300px;
+    padding: auto;
+}
+
+.login-page__noacoount{
+    color:var(--primary);
+}
+
+.login-page__rememberme{
+   
+   border:2px solid white;
+}
+
+
+ 
+
+

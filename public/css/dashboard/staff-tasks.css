@@ -1,0 +1,41 @@
+.staff_task_container
+{
+   
+     background-color:var(--secondary-600);
+     color: #ffffff;
+     padding: 10px;
+     margin: 20px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.booking_header
+{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+.staff_content
+{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+.staff_task_button
+{
+    background-color:var(--primary);
+    color:black;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 1px;
+    padding: 10px;
+}
+.staff_task_button:hover
+{
+    opacity: 1;
+}

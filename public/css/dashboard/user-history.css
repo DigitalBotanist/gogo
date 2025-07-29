@@ -1,0 +1,31 @@
+.user-history-box {
+    padding: 20px;
+}
+
+.user-history-item {
+    border-bottom: white 2px solid;
+    background-color: var(--secondary-500);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.user-history-info {
+    padding: 5px;
+    padding-inline: 20px;
+}
+
+.user-history-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.user-history-point {
+    margin-bottom: 5px;
+    background-color: var(--secondary-700);
+    color: white;
+    padding: 5px;
+}
+
+

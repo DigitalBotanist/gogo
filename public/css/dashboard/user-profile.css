@@ -1,0 +1,76 @@
+.dashboard-profile {
+    padding: 4%;
+}
+
+.dashboard-profile__logout {
+    position: relative;
+    right: 0;
+}
+.dashboard-profile__info-container { 
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom: 60px;
+}
+
+.dashboard-profile__img {
+    width: 300px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.dashboard-profile__info p { 
+    margin: 10px 0;
+}
+.dashboard-profile__info-label { 
+    width: 250px;
+}
+
+.dashboard-profile__info-contacts { 
+    line-height: 2em;
+}
+
+.dashboard-profile__info-row { 
+    display: flex;
+}
+
+.dashboard-profile__btn-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.dashboard-profile__btn {
+    font-size: 15px;
+}
+
+.dashboard-profile__credit-cards {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.dashboard-profile__credit-card {
+    background-color: var(--secondary-700);
+    padding: 5px 40px;
+
+}
+
+.credit-card-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dashboard-profile_card-delete {
+    color: var(--secondary-red);
+}
+
+.profile-popup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

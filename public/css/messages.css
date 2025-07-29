@@ -1,0 +1,56 @@
+.messages-page {
+    width: 50%;
+    color: white;
+    margin: 0 auto;
+}
+
+.messages-page__top {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 20px;
+}
+
+.messages__empty {
+    background-color: var(--secondary);
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(153, 153, 153);
+}
+
+.messages-page__send-message {
+    filter: invert(100%);
+    width: 50px;
+    aspect-ratio: 1;
+    cursor: pointer;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.messages__card {
+    background-color: var(--secondary);
+    padding: 30px;
+}
+
+.messages__card-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.messages__card-delete {
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.messages__card-delete:hover {
+    filter: invert(34%) sepia(77%) saturate(6103%) hue-rotate(346deg) brightness(105%) contrast(79%);
+}
+
+.messages__p {
+    color: rgb(179, 179, 179);
+}
